@@ -1,7 +1,7 @@
 {
     "name": "qatras/surfdata",
     "description": "Surfdata - A Qatras website visitor tracking system by Qfero",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
