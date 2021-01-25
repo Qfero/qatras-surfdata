@@ -1,0 +1,31 @@
+{
+    "name": "qatras/surfdata",
+    "description": "Surfdata - A Qatras website visitor tracking system by Qfero",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Qatras",
+            "email": "info@qatras.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Qatras\\Surfdata\\": "src/",
+            "Qatras\\Surfdata\\Http\\Middleware\\": "src/Http/Middleware/"
+        }
+    },
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Qatras\\Surfdata\\SurfdataServiceProvider"
+            ],
+            "aliases": {
+                "Surfdata": "Qatras\\Surfdata\\Facades\\Surfdata"
+            }
+        }
+    }
+}
